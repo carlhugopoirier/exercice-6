@@ -1,0 +1,79 @@
+
+e1352417@B1153-G99NFX1 MINGW64 /c/exercice-6
+$ git status
+fatal: Not a git repository (or any of the parent directories): .git
+
+e1352417@B1153-G99NFX1 MINGW64 /c/exercice-6
+$ status
+bash: status: command not found
+
+e1352417@B1153-G99NFX1 MINGW64 /c/exercice-6
+$ LOLOLOLOL
+bash: LOLOLOLOL: command not found
+
+e1352417@B1153-G99NFX1 MINGW64 /c/exercice-6
+$ git init
+Initialized empty Git repository in C:/exercice-6/.git/
+
+e1352417@B1153-G99NFX1 MINGW64 /c/exercice-6 (master)
+$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        assets/
+        index.htm
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+e1352417@B1153-G99NFX1 MINGW64 /c/exercice-6 (master)
+$ git add .
+warning: LF will be replaced by CRLF in assets/css/reset.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in assets/css/style.min.css.
+The file will have its original line endings in your working directory.
+
+e1352417@B1153-G99NFX1 MINGW64 /c/exercice-6 (master)
+$ git commit -m "zizi"
+[master (root-commit) 2dcd4fa] zizi
+ 11 files changed, 1331 insertions(+)
+ create mode 100644 assets/css/reset.css
+ create mode 100644 assets/css/style.min.css
+ create mode 100644 assets/img/arbres.svg
+ create mode 100644 assets/img/bg.svg
+ create mode 100644 assets/img/logo.svg
+ create mode 100644 assets/img/maison.svg
+ create mode 100644 assets/img/nuage.svg
+ create mode 100644 assets/img/oiseaux.svg
+ create mode 100644 assets/less/reset.less
+ create mode 100644 assets/less/style.min.less
+ create mode 100644 index.htm
+
+e1352417@B1153-G99NFX1 MINGW64 /c/exercice-6 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+e1352417@B1153-G99NFX1 MINGW64 /c/exercice-6 (master)
+$ git remote add origin https://github.com/carlhugopoirier/exercice-6.git
+
+e1352417@B1153-G99NFX1 MINGW64 /c/exercice-6 (master)
+$ git push -u origin master
+Counting objects: 16, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (16/16), done.
+Writing objects: 100% (16/16), 10.01 KiB | 0 bytes/s, done.
+Total 16 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas: 100% (4/4), done.
+Branch master set up to track remote branch master from origin.
+To https://github.com/carlhugopoirier/exercice-6.git
+ * [new branch]      master -> master
+
+e1352417@B1153-G99NFX1 MINGW64 /c/exercice-6 (master)
+$ git add .
+
+e1352417@B1153-G99NFX1 MINGW64 /c/exercice-6 (master)
+$
